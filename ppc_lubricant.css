@@ -71,7 +71,7 @@
 	width:100%;
 	height: 350px;
 	display: block;
-	background-color: #3a3a3a;
+	
 	vertical-align: top;
 }
 
@@ -120,11 +120,32 @@
 
 }
 .stuff{
-	width: 180px;
+	width: 207px;
+	height: 285px;
 	background-color: white;
-	margin: 20px;
+	margin: 10px;
 	border: .5px solid gray;
 	display: inline-block;
 	vertical-align: top;
+
+}
+
+.stuff p{
+	padding: 10px;
+	font-size: .8em;
+
+}
+
+.attic{
+	width: 206.4px;
+	border: .5px solid gray;
+}
+
+.shimmy{
+	margin-left: 100px;
+	border: 1px solid gray;
+	vertical-align: bottom;
+
+
 }
 
