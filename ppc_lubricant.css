@@ -3,7 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	border: 0;
+	border: 1px solid darkgray;
 	}
 
 #container {
@@ -25,9 +25,10 @@
 	
 	padding: 10px;
 	width: 970px;
-	height: 150px;
+	height: 120px;
 	display: block;
 	vertical-align: top;
+
 }
 
 #header p{
@@ -39,25 +40,47 @@
 	position: relative;
 	bottom: 50px;
 }
-#link {
-	width: 1000px;
+#header ul{
+	width: 100%;
 	background-color: #d9dfe5;
 	list-style-type: none;
+	position: relative;
+	display: block;
+	bottom: 35px;
+}
+
+#header ul li a{
 	display: inline block;
-	vertical-align: top;
-
-}
-
-#link ul a{
 	color: darkgray;
+
 }
 
-#link ul{
+#header ul{
 	padding: 7px 25px 7px 30px;
 	position: relative;
 	right: 10px;
 }
-#link ul li{
+#header ul li{
 	display: inline;
 	
+}
+
+#splashpage {
+	width:100%;
+	height: 350px;
+	display: block;
+	background-color: gray;
+}
+
+#splashpage img{
+	width:50%;
+	height: 100%;
+	display: inline-block;
+	background-color: black;
+}
+
+#intro{
+	width: 385px;
+	background-color: yellow;
+	padding: 20px;
 }
