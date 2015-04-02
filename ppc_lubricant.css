@@ -3,13 +3,14 @@
 * {
 	padding: 0;
 	margin: 0;
-	border: 1px solid darkgray;
+	border:0;
+	/*border: 1px solid black;*/
 	}
 
 #container {
 	background-color: black;
 	width: 970px;
-	height: 800px;
+	
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
@@ -31,10 +32,10 @@
 
 }
 
+
 #header p{
 	margin-left:500px;
-	
-	font-family: 'arial';
+	font-family: 'verdana' arial;
 	font-size: 25px;
 	font-style: 900;
 	position: relative;
@@ -69,18 +70,57 @@
 	width:100%;
 	height: 350px;
 	display: block;
-	background-color: gray;
+	background-color: #3a3a3a;
+	vertical-align: top;
 }
 
 #splashpage img{
-	width:50%;
-	height: 100%;
+	width:40%;
+	height: 80%;
+	margin: 20px 10px 20px 10px;
+	vertical-align: top;
 	display: inline-block;
-	background-color: black;
+	border: 3px solid white;
+	
 }
 
+
+
 #intro{
-	width: 385px;
+	width: 50%;
+	height: 90%;
+	margin: 20px 10px 20px;
+	background-color: #4E4E4E;
+	vertical-align: top;
+	display: inline-block;
+	
+}
+
+#inintro{
+
+	color:white;
+	padding: 10px 20px 10px 20px;
+}
+#inintro h4 {
+	font-family: 'verdana' arial;
+	font-size: 14px
+}
+#inintro p{
+	font-family: 'verdana' arial;
+	font-size: 14px
+}
+
+.mellow{
+	font-family: 'verdana' arial;
 	background-color: yellow;
-	padding: 20px;
+
+
+}
+#content{
+	background-color: red;
+	display: inline-block;
+}
+
+#stuff{
+
 }
